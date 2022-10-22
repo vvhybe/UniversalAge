@@ -1,0 +1,55 @@
+.curser{
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    border: 2px solid white;
+    transform: translate(-50%, -50%) scale(.7);
+    pointer-events: none;
+    z-index: 50;
+    transition: opacity, scale .3s ease-in-out;
+}
+
+.curser::before, .curser::after{
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    z-index: 51;
+    pointer-events: none;
+    transition: all .3s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.curser::before{
+    height: 16px;
+    width: 16px;
+    opacity: 1;
+    background-color: #ffffff;
+    transform: translate(-50%, -50%);
+}
+
+.curser::after{
+    height: 35px;
+    width: 35px;
+    opacity: 0;
+    box-shadow: 0 0 4px 4px #ffffff80;
+    transform: translate(-50%, -50%) scale(0);
+}
+
+.curser.click{
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.curser.click::after{
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.curser.click::before{
+    transform: translate(-50%, -50%) scale(.9);
+}
+
+.curser.hide{
+    opacity: 0;
+}

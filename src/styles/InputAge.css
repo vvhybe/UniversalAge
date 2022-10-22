@@ -1,0 +1,146 @@
+.modalBox{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+}
+
+.modalBox .inptAge{
+    position: relative;
+    height: 340px;
+    width: 350px;
+    padding-block: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff17;
+    background: center/cover no-repeat url(../BG/galaxyBG.jpg);
+    backdrop-filter: blur(3px);
+    opacity: 0;
+    transform: scale(0);
+    transition: all .2s cubic-bezier(0.19, 1, 0.22, 1);
+    outline-offset: 10px;
+    outline: .1px solid #838383;
+}
+
+.inptAge video{
+    position: absolute;
+    top: -20%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    object-fit: cover;
+    -o-object-fit: cover;
+    object-position: center;
+    -o-object-position: center;
+    border-radius: 50%;
+}
+
+.inptAge::before{
+    position: absolute;
+    content: '';
+    top: -24%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 125px;
+    width: 125px;
+    border-top: 1px solid white;
+    border-radius: 50%;
+}
+
+.modalBox:has(.inptAge.show){
+    backdrop-filter: blur(5px);
+}
+
+.modalBox:has(.inptAge.close){
+    backdrop-filter: blur(0px);
+}
+
+.inptAge.show{
+    opacity: 1;
+    transform: scale(1);
+}
+
+.inptAge.close{
+    opacity: 0;
+    transform: scale(0);
+}
+
+.inptAge .wlcmtitle{
+    margin: 0;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 4px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    
+}
+
+.inptAge .wlcmtitle span{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #cacaca;
+}
+
+.inptAge .presentation{
+    margin: 0;
+    font-size: .8rem;
+    width: 70%;
+    text-align: center;
+    color: #cacaca;
+
+}
+
+.inptAge label{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.inptAge span{
+    margin-left: 5px;
+    font-size: .8rem;
+    color: #cacaca;
+}
+
+.inptAge input{
+    position: relative;
+    height: 40px;
+    width: 200px;
+    padding: 0 10px;
+    background: none;
+    border: 1.5px solid white;
+    border-radius: none;
+}
+
+.inptAge input::-webkit-calendar-picker-indicator { 
+    filter: invert(1);
+    cursor: none;
+}
+
+.inptAge button{
+    height: 34px;
+    width: 100px;
+    border: 1.5px solid white;
+    background-color: #35353533;
+    transition: all .2s ease-in-out;
+}
+
+.inptAge button:is(:hover, :focus){
+    background-color: #5a5a5a8c;
+    backdrop-filter: blur(1px);
+    border-radius: none;
+}
+
+.inptAge button:active{
+    transform: scale(.95);
+}

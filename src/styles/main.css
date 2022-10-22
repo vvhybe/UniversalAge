@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+@import url('https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css');
+body {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  background-color: black;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+*{
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  color: white;
+  cursor: none !important;
+}
+
+*::-moz-selection{
+  background: #333333;
+  color: white;
+}
+*::selection{
+  background: #333333;
+  color: white;
+}
+
+button{
+  cursor: pointer;
+}
+
+video.videoBG{
+  margin: 0;
+  padding: 0;
+  height: 99.5vh;
+  width: 100vw;
+  object-fit: cover;
+  object-position: center;
+  -o-object-fit: cover;
+  -o-object-position: center;
+  z-index: 1;
+}
+
+.universalage{
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 50px 70px;
+  height: 100vh;
+  width: 100vw;
+  z-index: 2;
+}

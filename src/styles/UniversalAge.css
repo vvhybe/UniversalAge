@@ -1,0 +1,208 @@
+.universalInfo {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.universalInfo .overview {
+    width: 350px;
+}
+
+.overview .planetTitle {
+    margin: 10px 0;
+    font-size: 4rem;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    text-transform: capitalize;
+}
+
+.overview .planetOverview {
+    font-size: .85rem;
+    line-height: 1.1rem;
+    color: #d6d6d6;
+}
+
+.overview .planetOverview::first-letter {
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.universalInfo .info {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.info .diplayBirthdate {
+    margin: 30px 0 10px 0;
+    transform: translateX(60px);
+    width: 320px;
+    font-size: 3rem;
+    font-weight: 400;
+    border: none;
+    background: none;
+    transition: .3s ease-in-out;
+}
+
+.diplayBirthdate::-webkit-calendar-picker-indicator {
+    opacity: 0;
+    transform: scale(0);
+    filter: invert(1);
+    transition: .3s ease-in-out;
+    cursor: none;
+}
+
+.diplayBirthdate:is(:hover, :active) {
+    transform: translateX(0px);
+}
+
+.diplayBirthdate:is(:hover, :active)::-webkit-calendar-picker-indicator {
+    opacity: 1;
+    transform: scale(.5);
+}
+
+.info .planetInfo {
+    list-style: none;
+    height: 80px;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, 1fr);
+    place-items: center;
+    gap: 20px;
+}
+
+.info .planetInfo li {
+    font-size: 1.2rem;
+    position: relative;
+}
+
+.info .planetInfo li span {
+    position: absolute;
+    font-size: .75rem;
+    color: #d6d6d6;
+    width: 100%;
+    bottom: -70%;
+    left: 50%;
+    text-align: center;
+    transform: translateX(-50%);
+}
+
+.displayAge {
+    position: fixed;
+    font-size: 3rem;
+    font-weight: 400;
+    top: 35%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.displayAge span {
+    position: absolute;
+    top: -30%;
+    left: 50%;
+    width: 100%;
+    color: #d6d6d6;
+    transform: translateX(-50%);
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.planetSwipper {
+    position: fixed !important;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.planetSwipper .planet {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+}
+
+.planetSwipper .planet video {
+    width: 400px;
+    border-radius: 50%;
+}
+
+.lang {
+    position: fixed;
+    right: 5%;
+    bottom: 5%;
+    z-index: 400;
+}
+
+.lang button {
+    background: none;
+    border: none;
+    height: 40px;
+    width: 40px;
+    font-size: 1.1rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.lang button:hover {
+    background-color: transparent;
+}
+
+.dev {
+    position: fixed;
+    bottom: 5%;
+    left: 5%;
+    height: 35px;
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 400;
+    overflow: hidden;
+}
+
+.dev .devlogo {
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+    border-radius: 50%;
+    background: center/contain no-repeat url('../BG/YB.png');
+    z-index: 401;
+}
+
+.dev .sociallinks {
+    height: 25px;
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 15px;
+    background-color: #d6d6d615;
+    z-index: 399;
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: all .3s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.dev .sociallinks a {
+    text-decoration: none;
+    height: 15px;
+    width: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dev:hover .sociallinks {
+    opacity: 1;
+    transform: translateX(0%);
+}

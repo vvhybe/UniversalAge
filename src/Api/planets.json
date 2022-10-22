@@ -1,0 +1,342 @@
+{
+    "en":{
+        "mercury":{
+            "id": 1,
+            "name":"mercury",
+            "rev": 87.97,
+            "distance": "58 million km",
+            "radius": "2,439.7 km",
+            "surfaceArea": "74.8 million km²",
+            "mass": "3.285 × 10^23 kg",
+            "density": "5.43 g/cm³",
+            "age": "4.503 billion years",
+            "overview":"Mercury is the smallest planet in the Solar System and the closest to the Sun. Its orbit around the Sun takes 87.97 Earth days, the shortest of all the Sun's planets."
+        },
+        "venus":{
+            "id": 2,
+            "name":"venus",
+            "rev": 244.7,
+            "distance": "108.2 million km",
+            "radius": "6,051.8 km",
+            "surfaceArea": "460.2 million km²",
+            "mass": "4.867 × 10^24 kg",
+            "density": "5.24 g/cm³",
+            "age": "4.503 billion years",
+            "overview":"Venus is the second planet from the Sun, orbiting it the closest to Earth. It is sometimes called Earth's 'sister' or 'twin' planet as it is almost as large and has a similar composition"
+        },
+        "earth":{
+            "id": 3,
+            "name":"earth",
+            "rev": 365.25625,
+            "distance": "149.6 million km",
+            "radius": "6,371 km",
+            "surfaceArea": "510.1 million km²",
+            "mass": "5.972 × 10^24 kg",
+            "density": "5.51 g/cm³",
+            "age": "4.543 billion years",
+            "overview": "Earth is the third planet from the Sun and the only astronomical object known to harbor life. While large volumes of water can be found throughout the Solar System, only Earth sustains liquid surface water. About 71% of Earth's surface is made up of the ocean, dwarfing Earth's polar ice, lakes, and rivers."
+        },
+        "mars":{
+            "id": 4,
+            "name":"mars",
+            "rev": 686.68175,
+            "distance": "227.9 million km",
+            "radius": "3,389.5 km",
+            "surfaceArea": "144.8 million km²",
+            "mass": "6.39 × 10^23 kg",
+            "density": "3.93 g/cm³",
+            "age": "4.603 billion years",
+            "overview": "Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System, being larger than only Mercury. In the English language, Mars is named for the Roman god of war."
+        },
+        "jupiter":{
+            "id": 5,
+            "name":"jupiter",
+            "rev": 4331.939125,
+            "distance": "778.5 million km",
+            "radius": "69,911 km",
+            "surfaceArea": "61.42 billion km²",
+            "mass": "1.898 × 10^27 kg",
+            "density": "1.33 g/cm³",
+            "age": "4.603 billion years",
+            "overview": "Jupiter is the fifth planet from the Sun and the largest in the Solar System. It is a gas giant with a mass more than two and a half times that of all the other planets in the Solar System combined, but slightly less than one-thousandth the mass of the Sun."
+        },
+        "saturn":{
+            "id": 6,
+            "name":"saturn",
+            "rev": 10760.449125000001,
+            "distance": "1.434 billion km",
+            "radius": "58,232 km",
+            "surfaceArea": "42.7 billion km²",
+            "mass": "5.683 × 10^26 kg",
+            "density": "0.69 g/cm³",
+            "age": "4.503 billion years",
+            "overview": "Saturn is the sixth planet from the Sun and the second-largest in the Solar System, after Jupiter. It is a gas giant with an average radius of about nine and a half times Earth's. It has only one-eighth the average density of Earth; however, with its larger volume, Saturn is over 95 times more massive."
+        },
+        "uranus":{
+            "id": 7,
+            "name":"uranus",
+            "rev": 30685.177562500005,
+            "distance": "2.871 billion km",
+            "radius": "25,362 km",
+            "surfaceArea": "8.083 billion km²",
+            "mass": "8.681 × 10^25 kg",
+            "density": "1.27 g/cm³",
+            "age": "4.503 billion years",
+            "overview": "Uranus is the seventh planet from the Sun. Its name refers to the Greek god of the sky, Uranus, who, according to Greek mythology, was the great-grandfather of Ares, grandfather of Zeus, and father of Cronus. It has the third-largest planetary radius and fourth-largest planetary mass in the Solar System."
+        },
+        "neptune":{
+            "id": 8,
+            "name":"neptune",
+            "rev": 60190.577437500004,
+            "distance": "4.495 billion km",
+            "radius": "24,622 km",
+            "surfaceArea": "7.618 billion km²",
+            "mass": "1.024 × 10^26 kg",
+            "density": "1.64 g/cm³",
+            "age": "4.503 billion years",
+            "overview": "Neptune is the eighth planet from the Sun and the farthest known solar planet. In the Solar System, it is the fourth-largest planet by diameter, the third-most-massive planet, and the densest giant planet. It is 17 times the mass of Earth, and slightly more massive than its near-twin Uranus."
+        },
+        "pluto":{
+            "id": 9,
+            "name":"pluto",
+            "rev": 90799.05118750001,
+            "distance": "5.9 billion km",
+            "radius": "1,188.3 km",
+            "surfaceArea": "16.7 million km²",
+            "mass": "1.309 × 10^22  kg",
+            "density": "1.88 g/cm³",
+            "age": "4.600 billion years",
+            "overview": "Pluto is a dwarf planet in the Kuiper belt, a ring of bodies beyond the orbit of Neptune. It is the ninth-largest and tenth-most-massive known object to orbit the Sun directly. It is the largest known trans-Neptunian object by volume, by a small margin, but is slightly less massive than Eris."
+        }
+    },
+
+
+
+
+    "fr":{
+        "mercury":{
+            "id": 1,
+            "name":"mercure",
+            "rev": 87.97,
+            "distance": "58 million km",
+            "radius": "2,439.7 km",
+            "surfaceArea": "74.8 million km²",
+            "mass": "3.285 × 10^23 kg",
+            "density": "5.43 g/cm³",
+            "age": "4.503 milliards d'années",
+            "overview":"Mercure est la plus petite planète du système solaire et la plus proche du Soleil. Son orbite autour du Soleil prend 87,97 jours terrestres, la plus courte de toutes les planètes du Soleil."
+        },
+        "venus":{
+            "id": 2,
+            "name":"vénus",
+            "rev": 244.7,
+            "distance": "108.2 million km",
+            "radius": "6,051.8 km",
+            "surfaceArea": "460.2 million km²",
+            "mass": "4.867 × 10^24 kg",
+            "density": "5.24 g/cm³",
+            "age": "4.503 milliards d'années",
+            "overview":"Vénus est la deuxième planète à partir du Soleil, en orbite autour de celle-ci la plus proche de la Terre. On l'appelle parfois la planète 'sœur' ou 'jumelle' de la Terre car elle est presque aussi grande et a une composition similaire."
+        },
+        "earth":{
+            "id": 3,
+            "name":"terre",
+            "rev": 365.25625,
+            "distance": "149.6 million km",
+            "radius": "6,371 km",
+            "surfaceArea": "510.1 million km²",
+            "mass": "5.972 × 10^24 kg",
+            "density": "5.51 g/cm³",
+            "age": "4.543 milliards d'années",
+            "overview": "La Terre est la troisième planète à partir du Soleil et le seul objet astronomique connu pour abriter la vie. Alors que de grands volumes d'eau peuvent être trouvés dans tout le système solaire, seule la Terre soutient l'eau de surface liquide. Environ 71% de la surface de la Terre est constituée d'océan, éclipsant la glace polaire, les lacs et les rivières de la Terre."
+        },
+        "mars":{
+            "id": 4,
+            "name":"mars",
+            "rev": 686.68175,
+            "distance": "227.9 million km",
+            "radius": "3,389.5 km",
+            "surfaceArea": "144.8 million km²",
+            "mass": "6.39 × 10^23 kg",
+            "density": "3.93 g/cm³",
+            "age": "4.603 milliards d'années",
+            "overview": "Mars est la quatrième planète à partir du Soleil et la deuxième plus petite planète du système solaire, étant plus grande que Mercure. En anglais, Mars porte le nom du dieu romain de la guerre."
+        },
+        "jupiter":{
+            "id": 5,
+            "name":"jupiter",
+            "rev": 4331.939125,
+            "distance": "778.5 million km",
+            "radius": "69,911 km",
+            "surfaceArea": "61.42 billion km²",
+            "mass": "1.898 × 10^27 kg",
+            "density": "1.33 g/cm³",
+            "age": "4.603 milliards d'années",
+            "overview": "Jupiter est la cinquième planète à partir du Soleil et la plus grande du système solaire. C'est une géante gazeuse dont la masse est plus de deux fois et demie celle de toutes les autres planètes du système solaire combinées, mais légèrement inférieure à un millième de la masse du Soleil."
+        },
+        "saturn":{
+            "id": 6,
+            "name":"saturne",
+            "rev": 10760.449125000001,
+            "distance": "1.434 billion km",
+            "radius": "58,232 km",
+            "surfaceArea": "42.7 billion km²",
+            "mass": "5.683 × 10^26 kg",
+            "density": "0.69 g/cm³",
+            "age": "4.503 milliards d'années",
+            "overview": "Saturne est la sixième planète à partir du Soleil et la deuxième plus grande du système solaire, après Jupiter. C'est une géante gazeuse avec un rayon moyen d'environ neuf fois et demi celui de la Terre. Il n'a qu'un huitième de la densité moyenne de la Terre; cependant, avec son plus grand volume, Saturne est plus de 95 fois plus massive."
+        },
+        "uranus":{
+            "id": 7,
+            "name":"uranus",
+            "rev": 30685.177562500005,
+            "distance": "2.871 billion km",
+            "radius": "25,362 km",
+            "surfaceArea": "8.083 billion km²",
+            "mass": "8.681 × 10^25 kg",
+            "density": "1.27 g/cm³",
+            "age": "4.503 milliards d'années",
+            "overview": "Uranus est la septième planète à partir du Soleil. Son nom fait référence au dieu grec du ciel, Uranus, qui, selon la mythologie grecque, était l'arrière-grand-père d'Arès, le grand-père de Zeus et le père de Cronos. Il a le troisième plus grand rayon planétaire et la quatrième plus grande masse planétaire du système solaire."
+        },
+        "neptune":{
+            "id": 8,
+            "name":"neptune",
+            "rev": 60190.577437500004,
+            "distance": "4.495 billion km",
+            "radius": "24,622 km",
+            "surfaceArea": "7.618 billion km²",
+            "mass": "1.024 × 10^26 kg",
+            "density": "1.64 g/cm³",
+            "age": "4.503 milliards d'années",
+            "overview": "Neptune est la huitième planète à partir du Soleil et la planète solaire connue la plus éloignée. Dans le système solaire, c'est la quatrième plus grande planète en diamètre, la troisième planète la plus massive et la planète géante la plus dense. Il fait 17 fois la masse de la Terre et légèrement plus massif que son quasi-jumeau Uranus."
+        },
+        "pluto":{
+            "id": 9,
+            "name":"pluton",
+            "rev": 90799.05118750001,
+            "distance": "5.9 billion km",
+            "radius": "1,188.3 km",
+            "surfaceArea": "16.7 million km²",
+            "mass": "1.309 × 10^22  kg",
+            "density": "1.88 g/cm³",
+            "age": "4.600 milliards d'années",
+            "overview": "Pluton est une planète naine dans la ceinture de Kuiper, un anneau de corps au-delà de l'orbite de Neptune. C'est le neuvième plus grand et le dixième objet connu le plus massif à orbiter directement autour du Soleil. C'est le plus grand objet trans-neptunien connu en volume, par une petite marge, mais il est légèrement moins massif qu'Eris."
+        }
+    },
+
+
+
+
+
+    
+    "ar":{
+        "mercury":{
+            "id": 1,
+            "name":"عطارد",
+            "rev": 87.97,
+            "distance": "58 مليون كم",
+            "radius": "2,439.7 كم",
+            "surfaceArea": "74.8 مليون كم²",
+            "mass": "3.285 × 10^23 كلغ",
+            "density": "5.43 g/cm³",
+            "age": "4.503 مليار سنة",
+            "overview":"عطارد هو أصغر كوكب في المجموعة الشمسية والأقرب إلى الشمس. يستغرق مداره حول الشمس 87.97 يومًا من أيام الأرض ، وهو الأقصر بين جميع كواكب الشمس."
+        },
+        "venus":{
+            "id": 2,
+            "name":"الزهرة",
+            "rev": 244.7,
+            "distance": "108.2 مليون كم",
+            "radius": "6,051.8 كم",
+            "surfaceArea": "460.2 مليون كم²",
+            "mass": "4.867 × 10^24 كلغ",
+            "density": "5.24 g/cm³",
+            "age": "4.503 مليار سنة",
+            "overview":"كوكب الزهرة هو الكوكب الثاني من النضام الشمسي ، وهو الأقرب إلى مدار الأرض. يطلق عليه أحيانًا الكوكب ' الشقيق' أو' التوأم'  لأنه يكاد يكون بنفس حجم  و تركيبة  الأرض."
+        },
+        "earth":{
+            "id": 3,
+            "name":"الارض",
+            "rev": 365.25625,
+            "distance": "149.6 مليون كم",
+            "radius": "6,371 كم",
+            "surfaceArea": "510.1 مليون كم²",
+            "mass": "5.972 × 10^24 كلغ",
+            "density": "5.51 g/cm³",
+            "age": "4.543 مليار سنة",
+            "overview": "الأرض هي الكوكب الثالث من النظام الشمسي  والجسم الفلكي الوحيد المعروف بأنه يؤوي الحياة. بينما يمكن العثور على كميات كبيرة من المياه في جميع أنحاء النظام الشمسي ، فإن الأرض فقط هي التي تحافظ على المياه السطحية السائلة. يتكون حوالي 71 ٪ من سطح الأرض من المحيط ، مما يؤدي إلى تقزيم الجليد القطبي والبحيرات والأنهار."
+        },
+        "mars":{
+            "id": 4,
+            "name":"المريخ",
+            "rev": 686.68175,
+            "distance": "227.9 مليون كم",
+            "radius": "3,389.5 كم",
+            "surfaceArea": "144.8 مليون كم²",
+            "mass": "6.39 × 10^23 كلغ",
+            "density": "3.93 g/cm³",
+            "age": "4.603 مليار سنة",
+            "overview": "المريخ هو رابع كوكب من المجموعة الشمسية  وثاني أصغر كوكب في النظام الشمسي ، وهو أكبر من عطارد فقط. في اللغة الإنجليزية ، تم تسمية المريخ باسم إله الحرب الروماني."
+        },
+        "jupiter":{
+            "id": 5,
+            "name":"المشتري",
+            "rev": 4331.939125,
+            "distance": "778.5 مليون كم",
+            "radius": "69,911 كم",
+            "surfaceArea": "61.42 مليار كم²",
+            "mass": "1.898 × 10^27 كلغ",
+            "density": "1.33 g/cm³",
+            "age": "4.603 مليار سنة",
+            "overview": "كوكب المشتري هو الكوكب الخامس والأكبر في المجموعة الشمسية.  سمي بالمشتري لأنه يستشري في سيره أي يلـجُّ ويمضي ويَـجِدُّ فيه بلا فتور ولا انكسار. وكان المشتري معروفاً للفلكيين القدماء وارتبط بأساطير وأديان العديد من الشعوب. وقد أطلق الرومان عليه اسم جوبيتر وهو إله السماء والبرق. حيت  إنه عملاق غازي كتلته تزيد مرتين ونصف عن كتلة جميع الكواكب الأخرى في النظام الشمسي مجتمعة ، ولكنها أقل بقليل من واحد في الألف من كتلة الشمس."
+        },
+        "saturn":{
+            "id": 6,
+            "name":"زحل",
+            "rev": 10760.449125000001,
+            "distance": "1.434 مليار كم",
+            "radius": "58,232 كم",
+            "surfaceArea": "42.7 مليار كم²",
+            "mass": "5.683 × 10^26 كلغ",
+            "density": "0.69 g/cm³",
+            "age": "4.503 مليار سنة",
+            "overview": "زحل هو سادس كوكب وثاني أكبر كوكب في المجموعة الشمسية بعد كوكب المشتري. إنه عملاق غازي يبلغ متوسط نصف قطره حوالي تسعة أضعاف ونصف قطر الأرض. لديها فقط ثُمن متوسط كثافة الأرض ؛ ومع ذلك ، مع حجمه الأكبر ، زحل أكبر بـ 95 مرة."
+        },
+        "uranus":{
+            "id": 7,
+            "name":"أورانوس",
+            "rev": 30685.177562500005,
+            "distance": "2.871 مليار كم",
+            "radius": "25,362 كم",
+            "surfaceArea": "8.083 مليار كم²",
+            "mass": "8.681 × 10^25 كلغ",
+            "density": "1.27 g/cm³",
+            "age": "4.503 مليار سنة",
+            "overview": "أورانوس هو الكوكب السابع في المجموعة الشمسية . يشير اسمه إلى إله السماء اليوناني ، أورانوس ، الذي ، وفقًا للأساطير اليونانية ، كان الجد الأكبر لآريس ، وجد زيوس ، ووالد كرونوس. لديه ثالث أكبر نصف قطر كوكبي ورابع أكبر كتلة كوكبية في النظام الشمسي."
+        },
+        "neptune":{
+            "id": 8,
+            "name":"نبتون",
+            "rev": 60190.577437500004,
+            "distance": "4.495 مليار كم",
+            "radius": "24,622 كم",
+            "surfaceArea": "7.618 مليار كم²",
+            "mass": "1.024 × 10^26 كلغ",
+            "density": "1.64 g/cm³",
+            "age": "4.503 مليار سنة",
+            "overview": "نبتون هو الكوكب الثامن وأبعد كوكب شمسي معروف. في النظام الشمسي ، هو رابع أكبر كوكب من حيث القطر ، وثالث أكبر كوكب من حيث الكتلة ، وأكبر كوكب عملاق كثافة. تبلغ كتلته 17 مرة كتلة الأرض ، وأكبر بقليل من توأمه أورانوس."
+        },
+        "pluto":{
+            "id": 9,
+            "name":"بلوتو",
+            "rev": 90799.05118750001,
+            "distance": "5.9 مليار كم",
+            "radius": "1,188.3 كم",
+            "surfaceArea": "16.7 مليون كم²",
+            "mass": "1.309 × 10^22  كلغ",
+            "density": "1.88 g/cm³",
+            "age": "4.600 مليار سنة",
+            "overview": "بلوتو كما يُعرف باسم أفلوطن وهو كوكب قزم في حزام كايبر، حلقة من الأجسام الفلكية وراء نبتون وهو أول جرم فلكي يكتشف في حزام كايبر، ولقد اكتشفهُ العالم الفلكي كلايد تومبو في عام 1930 وكان يعتبر في الأصل أصغر كواكب المجموعة الشمسية التسعة. ولهُ خمسة أقمار، أكبرها قمر شارون وحجمه يبلغ ثلثي حجم بلوتو تقريبا."
+        }
+    }
+}
