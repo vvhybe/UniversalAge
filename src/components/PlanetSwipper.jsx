@@ -16,7 +16,7 @@ import uranus from '../Planets/uranus.mp4';
 import pluto from '../Planets/pluto.mp4';
 
 
-function PlanetSwipper({planet, setPlanet, planets}) {
+function PlanetSwipper({setPlanet, planets}) {
   const planetsMap = {
     "mercury": mercury,
     "venus": venus,
