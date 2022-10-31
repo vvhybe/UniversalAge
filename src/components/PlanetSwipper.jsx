@@ -62,4 +62,4 @@ function PlanetSwipper({planet, setPlanet, planets}) {
   );
 }
 
-export default PlanetSwipper
+export default PlanetSwipper;

@@ -4,7 +4,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .universalInfo .overview {
@@ -35,6 +34,20 @@
     justify-content: flex-end;
     align-items: flex-end;
     flex-direction: column;
+}
+
+/* Exception for arabic Lang: the EN and FR both writting from l->R except AR from R->L */
+.universalInfo[lang="ar"]{
+    flex-direction: row-reverse;
+}
+
+.universalInfo[lang="ar"] .overview{
+    text-align: right;
+}
+
+.universalInfo[lang="ar"] .info{
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .info .diplayBirthdate {
@@ -96,7 +109,7 @@
     position: fixed;
     font-size: 3rem;
     font-weight: 400;
-    top: 35%;
+    top: 40%;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -127,11 +140,13 @@
 .planetSwipper .planet {
     height: 400px;
     width: 400px;
-    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .planetSwipper .planet video {
-    width: 400px;
+    width: 100%;
     border-radius: 50%;
 }
 
@@ -205,4 +220,10 @@
 .dev:hover .sociallinks {
     opacity: 1;
     transform: translateX(0%);
+}
+
+@media screen and (max-width: 1280px){
+    .planetSwipper .planet{
+        width: 320px;
+    }
 }

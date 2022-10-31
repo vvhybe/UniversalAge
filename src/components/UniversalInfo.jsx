@@ -11,7 +11,7 @@ function UniversalInfo({ birthday, setBirthday, planet, planets, lang, guides })
   }
 
   return (
-    <main className='universalInfo'>
+    <main className='universalInfo' lang={lang}>
       <article className="overview">
         <h1 className='planetTitle'>{crntPlanetInfo.name}</h1>
         <p className='planetOverview'>{crntPlanetInfo.overview}</p>
