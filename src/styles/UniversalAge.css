@@ -229,11 +229,11 @@
 
     .planetSwipper{
         height: 250px;
-        /* background-color: burlywood; */
+        background-color: burlywood;
     }
     .planetSwipper .planet{
         width: 250px;
         height: fit-content;
-        /* background-color: aqua; */
+        background-color: aqua;
     }
 }
