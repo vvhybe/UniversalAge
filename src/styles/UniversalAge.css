@@ -227,3 +227,19 @@
         width: 320px;
     }
 }
+
+@media screen and (min-width: 1270px){
+    .universalage{
+        padding-block: 10px;
+    }
+
+    .planetSwipper{
+        height: 250px;
+        /* background-color: burlywood; */
+    }
+    .planetSwipper .planet{
+        width: 250px;
+        height: fit-content;
+        /* background-color: aqua; */
+    }
+}
