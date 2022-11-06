@@ -109,7 +109,7 @@
     position: fixed;
     font-size: 3rem;
     font-weight: 400;
-    top: 40%;
+    top: 35%;
     left: 50%;
     transform: translateX(-50%);
 }
