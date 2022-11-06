@@ -222,7 +222,7 @@
     transform: translateX(0%);
 }
 
-@media screen and (min-width: 1270px){
+@media screen and (max-width: 1270px){
     .universalage{
         padding-block: 10px;
     }
