@@ -37,12 +37,12 @@ function PlanetSwipper({setPlanet, planets}) {
         centeredSlides={true}
         slidesPerView={"auto"}
         loop={true}
-        spaceBetween={160}
+        spaceBetween={70} //180
         coverflowEffect={{
           rotate: 0,
           stretch: 0,
-          scale: 0.6,
-          depth: 40,
+          scale: 0.50, // 0.6
+          depth: 40, //40
           modifier: 1,
           slideShadows: true,
         }}

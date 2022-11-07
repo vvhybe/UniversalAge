@@ -52,7 +52,7 @@ video.videoBG{
   position: absolute;
   top: 0;
   left: 0;
-  padding: 10px 70px;
+  padding-inline: 70px;
   height: 100vh;
   width: 100vw;
   z-index: 2;

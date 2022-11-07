@@ -109,7 +109,7 @@
     position: fixed;
     font-size: 3rem;
     font-weight: 400;
-    top: 35%;
+    top: 32%;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -222,18 +222,14 @@
     transform: translateX(0%);
 }
 
-@media screen and (max-width: 1270px){
-    .universalage{
-        padding-block: 10px;
-    }
-
+/* @media screen and (max-width: 1280px){
     .planetSwipper{
-        height: 250px;
-        background-color: burlywood;
+        height: 210px;
+        background-color: darkgray;
     }
     .planetSwipper .planet{
-        width: 250px;
+        width: 210px;
         height: fit-content;
         background-color: aqua;
     }
-}
+} */
