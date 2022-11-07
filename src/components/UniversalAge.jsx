@@ -26,7 +26,7 @@ function UniversalAge() {
   return (
     <>
       <Cursor />
-      <video className='videoBG' muted={true} autoPlay={true} loop={true} src={BG}></video>
+      <video className='videoBG' muted={true} autoPlay={true} loop={true} src={BG} onContextMenu={e=>{e.preventDefault()}}></video>
       <div className="universalage">
         <InputAge birthday={birthday} setBirthday={setBirthday} />
         <UniversalInfo birthday={birthday} setBirthday={setBirthday} planet={planet} planets={planets} lang={lang} guides={guides} />

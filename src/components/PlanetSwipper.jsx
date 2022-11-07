@@ -54,7 +54,7 @@ function PlanetSwipper({setPlanet, planets}) {
 
       { Object.keys(planets).map(plnt => (
         <SwiperSlide key={planets[plnt].id} virtualIndex={planets[plnt].id} className={"planet " + planets[plnt].name}>
-          <video muted={true} autoPlay={true} loop={true} src={planetsMap[plnt]}></video>
+          <video muted={true} autoPlay={true} loop={true} src={planetsMap[plnt]} onContextMenu={e=>{e.preventDefault()}}></video>
         </SwiperSlide>
       )) }
       </Swiper>
