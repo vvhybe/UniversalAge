@@ -222,14 +222,11 @@
     transform: translateX(0%);
 }
 
-/* @media screen and (max-width: 1280px){
+@media screen and (max-width: 1280px){
     .planetSwipper{
-        height: 210px;
-        background-color: darkgray;
+        height: 320px;
     }
     .planetSwipper .planet{
-        width: 210px;
-        height: fit-content;
-        background-color: aqua;
+        width: 320px;
     }
-} */
+}
