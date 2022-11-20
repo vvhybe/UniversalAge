@@ -222,11 +222,11 @@
     transform: translateX(0%);
 }
 
-@media screen and (width <= 1270px){
+@media screen and (min-width: 1270px){
     .planetSwipper{
-        height: 320px;
+        height: 250px;
     }
     .planetSwipper .planet{
-        width: 320px;
+        width: 250px;
     }
 }
